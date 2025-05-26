@@ -9,15 +9,34 @@
 		<title>Youtube Downloader</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!-- Favicon -->
+		<link rel="icon" href="assets/icons/youtube-downloader-logo.svg" type="image/svg+xml">
+		<link rel="apple-touch-icon" href="assets/icons/youtube-downloader-logo.svg">
+		<meta name="theme-color" content="#FF0000">
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			.logo-img {
+				vertical-align: middle;
+				height: 1.5em;
+				margin-right: 0.5em;
+			}
+			@media screen and (max-width: 736px) {
+				.logo-img {
+					height: 1.2em;
+				}
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 
 		<!-- Header -->
 			<header id="header">
 				<div class="content">
-					<h1><a href="#">Youtube Downloader</a></h1>
+					<h1><a href="#" style="display: flex; align-items: center; justify-content: center;">
+						<img src="assets/icons/youtube-downloader-logo.svg" alt="Youtube Downloader Logo" class="logo-img">
+						<span>Youtube Downloader</span>
+					</a></h1>
 					<p>Youtube Downloader for Windows<br />
 					</p>
 					<ul class="actions">
@@ -59,11 +78,7 @@
 
 		<!-- Footer -->
 			<footer id="footer">
-				<ul class="icons">
-					<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-					<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-					<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-				</ul>
+
 			</footer>
 
 		<!-- Scripts -->
